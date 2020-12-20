@@ -1,0 +1,349 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Consistent Video Depth Estimation</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.8.2/css/bulma.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma-carousel@4.0.4/dist/css/bulma-carousel.min.css">
+    <link rel="stylesheet" href="css/carousel.css" type="text/css">
+    <script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
+    <script src="https://code.iconify.design/1/1.0.6/iconify.min.js"></script>
+  </head>
+  <body>
+
+    <!-- Start Hero -->
+    <section class="hero">
+      <div class="container">
+
+        <div class="hero-body">
+
+          <div class="level">
+            <h1 class="title level-item has-text-centered">Consistent Video Depth Estimation</h1>
+          </div>
+
+          <!-- Authors -->
+          <div class="columns" id="authors">
+            <div class="column has-text-centered">
+              <a href="https://roxanneluo.github.io"><h2 class="subtitle"><nobr>Xuan Luo</nobr></h2></a>
+              <h3 class="content is-small"><nobr>University of Washington</nobr></h3>
+            </div>
+            <div class="column has-text-centered">
+              <a href="https://filebox.ece.vt.edu/~jbhuang/"><h2 class="subtitle"><nobr>Jia-Bin Huang</nobr></h2></a>
+              <h3 class="content is-small"><nobr>Virginia Tech</nobr></h3>
+            </div>
+            <div class="column has-text-centered">
+              <a href="http://szeliski.org/RichardSzeliski.htm"><h2 class="subtitle"><nobr>Richard Szeliski</nobr></h2></a>
+              <h3 class="content is-small"><nobr>Facebook</nobr></h3>
+            </div>
+            <div class="column has-text-centered">
+              <a href="https://www.linkedin.com/in/kevin-matzen-b3714414"><h2 class="subtitle"><nobr>Kevin Matzen</nobr></h2></a>
+              <h3 class="content is-small"><nobr>Facebook</nobr></h3>
+            </div>
+            <div class="column has-text-centered">
+              <a href="https://johanneskopf.de/"><h2 class="subtitle"><nobr>Johannes Kopf</nobr></h2></a>
+              <h3 class="content is-small"><nobr>Facebook</nobr></h3>
+            </div>
+          </div>
+          <!-- End of Authors -->
+
+          <div class="columns">
+            <div class="column has-text-centered">
+              <a href="https://s2020.siggraph.org/" class="subtitle is-4">SIGGRAPH 2020</a>
+            </div>
+          </div>
+        </div>
+
+       
+      
+        <!-- Links -->
+        <div class="hero-foot">
+          <div class="columns is-centered">
+            <div class="column is-two-thirds">
+              <div class="columns is-variable is-2">
+                <div class="column has-text-centered">
+                  <figure class="image is-64x64 container">
+                    <a href="https://arxiv.org/abs/2004.15021"><img src="images/paper_thumbnail.png" alt="paper"></a>
+                  </figure>
+                  <p><a href="https://arxiv.org/abs/2004.15021">Paper</a></p>
+                </div>
+                <div class="column has-text-centered">
+                  <figure class="image is-64x64 container">
+                    <a href="https://github.com/facebookresearch/consistent_depth"><img src="https://uploads-ssl.webflow.com/51e0d73d83d06baa7a00000f/5cae3b53b42ebb3dd4175a82_68747470733a2f2f7777772e69636f6e66696e6465722e636f6d2f646174612f69636f6e732f6f637469636f6e732f313032342f6d61726b2d6769746875622d3235362e706e67.png" alt="github"></a>
+                  </figure>
+                  <p><a href="https://github.com/facebookresearch/consistent_depth">Code</a></p>
+                </div>
+                <div class="column has-text-centered has-text-centered">
+                  <figure class="image is-16by9 container">
+                   <a href="https://youtu.be/RRBpz2zaA-w"><img src="images/slides.jpg" alt="Talk" style="max-height:64px; max-width: 114px"></a>
+                  </figure>
+                  <p class="content"><a href="https://youtu.be/RRBpz2zaA-w">Talk</a> (<a href="https://www.dropbox.com/s/05beidjdeu7tmv8/SIGGRAPH_2020_Presentations%20to%20share.key?dl=0">Slides</a>)</p>
+                </div>
+                <div class="column has-text-centered">
+                  <figure class="image is-64x64 container">
+			             <a href="supp_website/index.html"><img src="images/supplementary_thumbnail.png" alt="Supplementary"></a>
+                  </figure>
+                  <p class="content is-small"><a href="supp_website/index.html">Supplementary material</a></p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- End of Links -->
+
+      </div>
+      <!-- End of Container -->
+
+    </section>
+
+
+    <section class="section" id="carousel">
+      <div class="container">
+        <div class="columns is-centered">
+          <div class="column is-two-thirds">
+            
+            <!-- Start Carousel Section -->
+            <section class="section has-carousel" style="padding: 0">
+              <div id="carousel-results" class="carousel">
+
+                <!-- start carousel item list -->
+                <div class="item-1">
+                  <figure class="image is-9by16">
+                    <video class="has-ratio" muted controls loop autoplay>
+                      <source src="videos/carousel/ayush_color.mp4" type="video/mp4" width="100%" height="100%">
+                        "Your browser does not support the video tag"
+                    </video>
+                  </figure>
+                </div>
+
+                <div class="item-2">
+                  <figure class="image is-9by16">
+                    <video class="has-ratio" muted controls loop autoplay>
+                      <source src="videos/carousel/ayush_depth.mp4" type="video/mp4" width="100%" height="100%">
+                        "Your browser does not support the video tag"
+                    </video>
+                  </figure>
+                </div>
+
+                <div class="item-2">
+                  <figure class="image is-9by16">
+                    <video class="has-ratio" muted controls loop autoplay>
+                      <source src="videos/carousel/ayush_balls.mp4" type="video/mp4" width="100%" height="100%">
+                        "Your browser does not support the video tag"
+                    </video>
+                  </figure>
+                </div>
+
+                <div class="item-6">
+                  <figure class="image is-9by16">
+                    <video class="has-ratio" muted controls loop autoplay>
+                      <source src="videos/carousel/ayush_snow.mp4" type="video/mp4" width="100%" height="100%">
+                        "Your browser does not support the video tag"
+                    </video>
+                  </figure>
+                </div>
+
+
+                <div class="item-4">
+                  <figure class="image is-9by16">
+                    <video class="has-ratio" muted controls loop autoplay>
+                      <source src="videos/carousel/ayush_cyberpunk.mp4" type="video/mp4" width="100%" height="100%">
+                        "Your browser does not support the video tag"
+                    </video>
+                  </figure>
+                </div>
+
+                <div class="item-3">
+                  <figure class="image is-9by16">
+                    <video class="has-ratio" muted controls loop autoplay>
+                      <source src="videos/carousel/ayush_cubes.mp4" type="video/mp4" width="100%" height="100%">
+                        "Your browser does not support the video tag"
+                    </video>
+                  </figure>
+                </div>
+
+                <div class="item-5">
+                  <figure class="image is-9by16">
+                    <video class="has-ratio" muted controls loop autoplay>
+                      <source src="videos/carousel/ayush_firebois.mp4" type="video/mp4" width="100%" height="100%">
+                        "Your browser does not support the video tag"
+                    </video>
+                  </figure>
+                </div>
+
+                <!-- end carousel item list -->
+
+              </div>
+            </section>
+            <!-- End Carousel Section -->
+
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <section class="section" id="Overview-Video">
+      <div class="container">
+        <div class="columns is-centered">
+          <div class="column is-two-thirds">
+            <h2 class="title is-3">Overview Video</h2>
+            <figure class="image is-16by9">
+              <iframe class="has-ratio" width="560" height="315" src="https://www.youtube.com/embed/5Tia2oblJAg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </figure>
+            <br>
+            <p><a href="https://www.zhihu.com/zvideo/1239496041512525824"><span class="iconify" data-icon="simple-icons:zhihu" data-inline="false"></span></a> Please check <a href="https://www.zhihu.com/zvideo/1239496041512525824">here</a> if you cannot view the video.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <section class="section" id="Abstract">
+      <div class="container content">
+        <div class="columns is-centered">
+          <div class="column is-two-thirds has-text-justified">
+            <h2 class="title is-3">Abstract</h2>
+
+            <p>
+              We present an algorithm for reconstructing dense, geometrically consistent depth for all pixels in a monocular video.
+              We leverage a conventional structure-from-motion reconstruction to establish geometric constraints on pixels in the video.
+              Unlike the ad-hoc priors in classical reconstruction, we use a learning-based prior, i.e., a convolutional neural network trained for single-image depth estimation.
+              At test time, we fine-tune this network to satisfy the geometric constraints of a particular input video, while retaining its ability to synthesize plausible depth details in parts of the video that are less constrained.
+              We show through quantitative validation that our method achieves higher accuracy and a higher degree of geometric consistency than previous monocular reconstruction methods.
+              Visually, our results appear more stable.
+              Our algorithm is able to handle challenging hand-held captured input videos with a moderate degree of dynamic motion.
+              The improved quality of the reconstruction enables several applications, such as scene reconstruction and advanced video-based visual effects.
+            </p>
+
+            <img src="images/overview.png">
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <section class="section" id="results">
+      <div class="container content">
+        <div class="columns is-centered">
+          <div class="column is-two-thirds has-text-justified">
+            <h2 class="title is-3">Results</h2>
+
+            <div class="tile is-ancestor is-vertical">
+              <div class="tile is-parent">
+                <div class="tile is-child has-text-vcentered">
+                  <video muted controls loop width="100%">
+                    <source src="videos/results/dog_color_depth.mp4" type="video/mp4">
+                      "Your browser does not support the video tag"
+                  </video>
+                </div>
+
+                <div class="tile is-child has-text-vcentered">
+                  <video muted controls loop width="100%">
+                    <source src="videos/results/family_color_depth.mp4" type="video/mp4">
+                      "Your browser does not support the video tag"
+                  </video>
+                </div>
+              </div>
+
+              <div class="tile is-parent">
+                <div class="tile is-child has-text-vcentered">
+                  <video muted controls loop width="100%">
+                    <source src="videos/results/cat_color_depth.mp4" type="video/mp4">
+                      "Your browser does not support the video tag"
+                  </video>
+                </div>
+
+                <div class="tile is-child has-text-vcentered">
+                  <video muted controls loop width="100%">
+                    <source src="videos/results/boy_color_depth.mp4" type="video/mp4">
+                      "Your browser does not support the video tag"
+                  </video>
+                </div>
+              </div>
+              
+              <div class="tile is-parent">
+                <div class="tile is-child has-text-vcentered">
+                  <video muted controls loop width="100%">
+                    <source src="videos/results/river_color_depth.mp4" type="video/mp4">
+                      "Your browser does not support the video tag"
+                  </video>
+                </div>
+              </div>
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+
+    <section class="section" id="Press">
+      <div class="container">
+        <div class="columns is-centered">
+          <div class="column is-two-thirds content">
+            <h2 class="title is-3">Media</h2>
+            <div class="level">
+              <div class="level-left">
+                <div class="level-item">
+                  <figure class="image is-64x64 icon">
+                    <a href="https://youtu.be/QSVrKK_uHoU"><img class="is-rounded" src="https://yt3.ggpht.com/a/AATXAJzV7GtApxdOTiRhzYwt8-ZP5SBlp3c8R11OxBSOIA=s288-c-k-c0xffffffff-no-rj-mo" alt="Two Minute Papers"></a>
+                  </figure>
+                </div>
+
+                <div class="level-item">
+                  <figure class="image is-64x64 icon">
+                    <a href="https://mp.weixin.qq.com/s/WlDrvXDp28WTxTKRzNUfxA"><img class="is-rounded" src="https://img.chainnews.com/upload/avatar/56d6ed86-00d5-5725-944b-c1da0cde36b6_HrfLutj.jpg-avatar" alt="机器之心"></a>
+                  </figure>
+                </div>
+                <div class="level-item">
+                  <figure class="image is-64x64 icon">
+                    <a href="https://mp.weixin.qq.com/s/J9DIDMHc6uHPQ8snadRcPA"><img class="is-rounded" src="https://pic3.zhimg.com/v2-ca6e7ffc10a0d10edbae635cee82d007_l.jpg" alt="量子位"></a>
+                  </figure>
+                </div>
+                <div class="level-item">
+                  <figure class="image is-64x64 icon">
+                    <a href="https://zhuanlan.zhihu.com/p/150065283"><img class="is-rounded" src="https://pic2.zhimg.com/v2-c48779a8d4951aa2573611d302f3bada_l.jpg" alt="伯禹人工智能学院"></a>
+                  </figure>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <section class="section" id="BibTeX">
+      <div class="container content">
+        <div class="columns is-centered">
+          <div class="column is-two-thirds has-text-justified">
+            <h2 class="titile">BibTeX</h2>
+              <pre><code>@article{Luo-VideoDepth-2020,
+  author    = {Luo, Xuan and Huang, Jia{-}Bin and Szeliski, Richard and Matzen, Kevin and Kopf, Johannes},
+  title     = {Consistent Video Depth Estimation},
+  booktitle = {ACM Transactions on Graphics (Proceedings of ACM SIGGRAPH)},
+  publisher = {ACM},
+  volume = {39},
+  number = {4},
+  year = {2020}
+}</code></pre>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <script src="https://cdn.jsdelivr.net/npm/bulma-carousel@4.0.4/dist/js/bulma-carousel.min.js"></script>
+    <script>
+    bulmaCarousel.attach('#carousel-results', {
+      slidesToScroll: 1,
+      slidesToShow: 3,
+      infinite: true,
+      autoplay: true,
+      autoplaySpeed: 5000,
+    });
+    </script>
+  </body>
+</html>
+
