@@ -1,0 +1,32 @@
+.header-image {
+    background-image: linear-gradient(to bottom, rgba(0,0,0,0.6) 0%,rgba(0,0,0,0.6) 100%), url("images/overview/overview_color_disp.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-color: #999;
+    /*opacity: 0.4;*/
+}
+
+.hero .title, #authors .subtitle {
+  color: white;
+}
+.hero .content, .hero .subtitle{
+  color: #DDD;
+}
+#Abstract .level-item {
+  max-width: 35%;
+}
+#teaser  img {
+  max-height:160px;
+  width: auto;
+  height: auto;
+}
+#analysis .level-item {
+  max-width: 80%;
+}
+#analysis img {
+  max-height:180px;
+  width: auto;
+  height: auto;
+}
