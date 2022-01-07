@@ -1,0 +1,9 @@
+[submodule "third_party/face_parsing"]
+	path = third_party/face_parsing
+	url = https://github.com/Time-Travel-Rephotography/face-parsing.PyTorch.git
+[submodule "models/encoder4editing"]
+	path = models/encoder4editing
+	url = https://github.com/Time-Travel-Rephotography/encoder4editing.git
+[submodule "losses/contextual_loss"]
+	path = losses/contextual_loss
+	url = https://github.com/Time-Travel-Rephotography/contextual_loss_pytorch.git
