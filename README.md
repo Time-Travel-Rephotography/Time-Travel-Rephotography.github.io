@@ -47,7 +47,7 @@ Or you can run our method on your own machine following the instructions below.
 Run our method on the example photo of Abraham Lincoln.
 - Download models:
   ```
-  ./scripts/download_checkpoint.sh
+  ./scripts/download_checkpoints.sh
   ```
 - Run:
   ```
