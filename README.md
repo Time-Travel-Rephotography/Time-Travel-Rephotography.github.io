@@ -1,9 +1,8 @@
 # [SIGGRAPH Asia 2021] Time-Travel Rephotography
 <a href="https://arxiv.org/abs/2012.12261"><img src="https://img.shields.io/badge/arXiv-2008.00951-b31b1b.svg"></a>
 <a href="https://opensource.org/licenses/MIT"><img src="https://img.shields.io/badge/License-MIT-yellow.svg"></a>
-[![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1KZXGkHVhvz2X3ljaCQANC1bDr7OrzDpg?userstoinvite=roxanneluoxuan%40gmail.com&actionButton=1#scrollTo=CIDDOutMM6kz)
+[![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1KZXGkHVhvz2X3ljaCQANC1bDr7OrzDpg?usp=sharing)
 ### [[Project Website](https://time-travel-rephotography.github.io/)]
-
 <p align='center'>
 <img src="time-travel-rephotography.gif" width='100%'/>
 </p>
