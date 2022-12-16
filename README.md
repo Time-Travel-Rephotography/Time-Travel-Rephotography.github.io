@@ -115,4 +115,4 @@ This work is licensed under MIT License. See [LICENSE](LICENSE) for details.
 Codes for the StyleGAN2 model come from [https://github.com/rosinality/stylegan2-pytorch](https://github.com/rosinality/stylegan2-pytorch).
 
 ## Acknowledgments
-We thank [Nick Brandreth](https://www.nickbrandreth.com/) for capturing the dry plate photos. We thank Bo Zhang, Qingnan Fan, Roy Or-El, Aleksander Holynski and Keunhong Park for insightful advice.
+We thank [Nick Brandreth](https://www.nickbrandreth.com/) for capturing the dry plate photos. We thank Bo Zhang, Qingnan Fan, Roy Or-El, Aleksander Holynski and Keunhong Park for insightful advice. We thank [Xiaojie Feng](https://github.com/fengxiaojie-coder) for his contributions on the colab demo.
