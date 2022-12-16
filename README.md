@@ -25,7 +25,7 @@ In SIGGRAPH Asia 2021.
 We provide an easy-to-get-started demo using Google Colab!
 The Colab will allow you to try our method on the sample Abraham Lincoln photo or **your own photos** using Cloud GPUs on Google Colab.
 
-[![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/15D2WIF_vE2l48ddxEx45cM3RykZwQXM8?usp=sharing)
+[![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1KZXGkHVhvz2X3ljaCQANC1bDr7OrzDpg?usp=sharing)
 
 Or you can run our method on your own machine following the instructions below.
  
