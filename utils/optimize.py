@@ -214,7 +214,7 @@ class Optimizer:
         vis = resize(img)
         if degraded is not None:
             vis = torch.cat((resize(degraded), vis), dim=-1)
-        visual = make_grid(torch.cat((target.repeat(1, vis.shape[1] // target.shape[1], 1, 1), vis), dim=-1), nrow=1, normalize=True, range=(-1, 1))
+        visual = make_grid(torch.cat((target.repeat(1, vis.shape[1] // target.shape[1], 1, 1), vis), dim=-1), nrow=1, normalize=True)
         writer.add_image("gnd[-degraded]-pred", visual, niters)
 
         # log to rgbs
@@ -225,6 +225,6 @@ class Optimizer:
     def log_torgbs(writer: SummaryWriter, niters: int, rgbs: Iterable[torch.Tensor], prefix: str = ""):
         for ri, rgb in enumerate(rgbs):
             scale = 2 ** (-(len(rgbs) - ri))
-            visual = make_grid(torch.cat((rgb, rgb / scale), dim=-1), nrow=1, normalize=True, range=(-1, 1))
+            visual = make_grid(torch.cat((rgb, rgb / scale), dim=-1), nrow=1, normalize=True)
             writer.add_image(f"{prefix}to_rbg_{2 ** (ri + 2)}", visual, niters)
 
